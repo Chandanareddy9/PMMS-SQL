@@ -1,6 +1,7 @@
 # Personal Favorite Music Management System (PMMS)
 
-## Project Overview:
+## Project Overview
+
 The Personal Music Management System (PMMS) is a database designed to store and manage your favorite artists, songs, and albums. It allows you to have all your favorite music information in one place, providing easy access to details such as artist information, song details, album sales and more. With PMMS, you can answer questions about your music preferences, track listening history, and analyze your music data without needing to search the internet or use a music application.
 
 ## Key Functionalities
@@ -11,7 +12,7 @@ The Personal Music Management System (PMMS) is a database designed to store and 
 - Track listening history and generate insights about listening habits.
 - Analyze data to find favorite songs, most-listened-to artists, and more.
 
-## Database Schema
+## Database Schema:
 
 ### The database schema includes the following tables:
 - Artists
@@ -25,7 +26,8 @@ The Personal Music Management System (PMMS) is a database designed to store and 
 - Users
 - ListeningHistory
 
-## Relationships
+## Relationships:
+
 - Each artist can have multiple genres through the Artist_Genres table.
 - Each album is linked to an artist.
 - Each song is linked to an album and an artist.
@@ -34,11 +36,13 @@ The Personal Music Management System (PMMS) is a database designed to store and 
 - Users have a listening history tracked in the ListeningHistory table.
  
 ## Constraints and Indexes
+
 - Primary keys on all tables.
 - Foreign keys to enforce relationships between tables.
 - Indexes on frequently queried columns for performance optimization, such as Artist_Name, Country, Genre_Type, Album_Name, Release_Date, and Song_Title
 
 ## Sample Data
+
 The data included in this project is manually added and consists of personal favorite songs and artists. Information about artists and album sales was sourced from the web and the site 'https://bestsellingalbums.org/about#sales'.
 
 ## Example Queries
@@ -55,11 +59,13 @@ The data included in this project is manually added and consists of personal fav
 8) Retrieve the top 3 most listened-to songs.
 
 ## Insights and Results
+
 These queries provide insights into your music preferences, such as average artist age, most popular songs, artist longevity, genre distribution, top-selling albums, and detailed listening habits.
 
 ## Usage Instructions
 
 ### Setup Steps
+
 - **Download MySQL**: Install MySQL software from the official website.
 - **Install MySQL Workbench:** Download and install MySQL Workbench to manage your database.
 - **Create a Connection:** Open MySQL Workbench and create a new connection to your MySQL server.
@@ -67,6 +73,7 @@ These queries provide insights into your music preferences, such as average arti
 - **Run Queries:** Use the SQL queries provided in this README to interact with your PMMS database and retrieve insights.
 
 ## Software and Tools Required
+
 - **MySQL:** The database management system used to create and manage the PMMS database.
 - **MySQL Workbench:** A GUI tool to design, manage, and interact with MySQL databases.
 
